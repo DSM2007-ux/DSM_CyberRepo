@@ -26,7 +26,6 @@ Notes on what I learned.
 - **What I learned:** I learned how the ls command shows the files in the current directory by default, and how the cat command can be used to print the outputs of a specified file
 - **Where I got stuck:** I was unsure of the syntax for the ls command
 
-Password found: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
 
 ### Level 1 to 2
 - **Goal:** Read the file called "-"
@@ -34,5 +33,4 @@ Password found: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
 - **What I learned:** Files named "-" cant be directly read from the terminal as when the - character is used, cat waits for the user to type into the terminal rather than it look for a file. The fix is to input ./ before the character, this tells the OS that it needs to look for a filename.
 - **Where I got stuck:** I was trying to enter the command "cat -" and left with a blank response. Research was needed to figure out how to indicate that im searching for a filename.
 
-Password found: PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
 
