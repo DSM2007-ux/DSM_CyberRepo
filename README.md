@@ -1,12 +1,13 @@
 # OverTheWire Bandit notes
 
-Notes on what I learned. No passwords or full answers.
+Notes on what I learned. 
 
 ## Progress
 
 | Level | Done | Main idea |
 |---|---|---|
-| 0 | Y | SSH into the bandit game using the given username and password |
+| 0-1 | Y | SSH into the bandit game using the given username and password |
+|1-2|  |  |
 
 ## Commands I've learned
 
@@ -14,14 +15,24 @@ Notes on what I learned. No passwords or full answers.
 |---|---|---|
 | ssh -p | Specifies a port other than the default port 22 | ssh -p 2220 |
 | user@host | The username to log in as, and the server to connect to | ssh -p 2220 bandit0@bandit.labs.overthewire.org |
+|ls|lists files in a specified directory, current directory if unspecified|
+|cat|displays contents of a file into the terminal|cat readme|
 
 ## Level notes
 
 ### Level 0 to 1
-- **Goal:**
-- **Commands used:**
-- **What I learned:**
-- **Where I got stuck:**
+- **Goal:** Locate and print the output of a readme file 
+- **Commands used:** ls, cat
+- **What I learned:** I learned how the ls command shows the files in the current directory by default, and how the cat command can be used to print the outputs of a specified file
+- **Where I got stuck:** I was unsure of the syntax for the ls command
 
-## Reflection
-(Added at the end of each session: what was easy, what was hard, what I'll do next)
+Password found: 6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
+
+### Level 1 to 2
+- **Goal:** Read the file called "-"
+- **Commands used:** ls, cat
+- **What I learned:** Files named "-" cant be directly read from the terminal as when the - character is used, cat waits for the user to type into the terminal rather than it look for a file. The fix is to input ./ before the character, this tells the OS that it needs to look for a filename.
+- **Where I got stuck:** I was trying to enter the command "cat -" and left with a blank response. Research was needed to figure out how to indicate that im searching for a filename.
+
+Password found: PK8fYLZg2hnHSz83plBL1iEPKdD3QToB
+
