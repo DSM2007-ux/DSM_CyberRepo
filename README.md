@@ -6,8 +6,8 @@ Notes on what I learned.
 
 | Level | Done | Main idea |
 |---|---|---|
-| 0-1 | Y | SSH into the bandit game using the given username and password |
-|1-2|  |  |
+| 0-1 | Y | Print contents of readme |
+|1-2| Y  | Print contents of file named -  |
 
 ## Commands I've learned
 
