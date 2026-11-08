@@ -13,6 +13,8 @@ Notes on what I learned.
 |cat|displays contents of a file into the terminal|cat readme|
 |./ prefix|Gives a file's path so a name like - isn't read as an option|cat ./-|
 | -- | Tells the command line that a filename follows rather than a flag | cat -- --filename |
+|find| Searches the current directory (if entered without any other parameters) and lists all files and subdirectories| find /home/user/documents -name "report.pdf" |
+
 ## Level notes
 
 ### Level 0 to 1
