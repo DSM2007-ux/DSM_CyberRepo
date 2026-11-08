@@ -2,12 +2,6 @@
 
 Notes on what I learned. 
 
-## Progress
-
-| Level | Done | Main idea |
-|---|---|---|
-| 0-1 | Y | Print contents of readme |
-|1-2| Y  | Print conten  ts of file named -  |
 
 ## Commands I've learned
 
@@ -18,7 +12,7 @@ Notes on what I learned.
 |ls|lists files in a specified directory, current directory if unspecified|ls -la|
 |cat|displays contents of a file into the terminal|cat readme|
 |./ prefix|Gives a file's path so a name like - isn't read as an option|cat ./-|
-
+| -- | Tells the command line that a filename follows rather than a flag | cat -- --filename |
 ## Level notes
 
 ### Level 0 to 1
@@ -33,5 +27,12 @@ Notes on what I learned.
 - **Commands used:** ls, cat
 - **What I learned:** cat treats - as “read from the keyboard”, not as a file name. Writing ./- gives the file’s path, so cat reads the file.
 - **Where I got stuck:** I was trying to enter the command "cat -" and left with a blank response. Research was needed to figure out how to indicate that I'm searching for a filename.
+
+### Level 2 to 3
+- **Goal:** Read the file called "-- spaces in this filename --"
+- **Commands used:** ls, cat, --
+- **What I learned:** The command line uses -- as an indication to treat anything after as an argument
+- **Where I got stuck:** quotation marks are needed around the filename, as the filename has -- in it which mustn't be used as an "end of options"
+
 
 
