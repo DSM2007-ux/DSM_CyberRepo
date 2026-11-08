@@ -32,7 +32,7 @@ Notes on what I learned.
 
 ### Level 2 to 3
 - **Goal:** Read the file called "-- spaces in this filename --"
-- **Commands used:** ls, cat, --
+- **Commands used:** ls, cat, find
 - **What I learned:** The command line uses -- as an indication to treat anything after as an argument
 - **Where I got stuck:** quotation marks are needed around the filename, as the filename has -- in it which mustn't be used as an "end of options"
 
